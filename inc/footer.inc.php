@@ -1,6 +1,6 @@
 
 <footer>
-          <h1>Systec</h1>
+          <h1>SysTec</h1>
        </footer>
    </body>
 

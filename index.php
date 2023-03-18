@@ -1,6 +1,18 @@
 <?php
+session_start();
 include 'inc/header.inc.php';
 include 'inc/footer.inc.php';
+
+if(isset($_SESSION['logado'])){
+    echo "<div class='login'><a href='editarcliente.php'>Editar Login</a><a href='sair.php'>Sair</a></div>";
+}
+    
+    else {
+        echo "<div class='login'><a href='login.php'>Login</a><a href='cadastro.php'>Cadastro</a></div>";
+    
+}
+
+
 ?>
 
 <div class="container">
