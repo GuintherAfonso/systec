@@ -127,4 +127,15 @@ class Clientes {
         $sql->bindValue(':id', $id);
         $sql->execute();
     }
+
+    public function setUsuario($id){
+        $this->id = $id;
+        $sql = $this->con->conectar()->prepare("SELECT * FROM clientes WHERE id = :id");
+        $sql->bindValue(":id", $id);
+        $sql->execute();
+        
+        if($sql->rowCount() > 0){
+            
+        }
+    }
 }
