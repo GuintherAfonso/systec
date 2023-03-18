@@ -12,4 +12,8 @@
 
    <body>
        
-   <header class="header"><img class="img" src="img/agenda.png"></header>
+   <header>
+		<div class="container">
+			<h1>SysTec</h1>
+		</div>
+	</header>

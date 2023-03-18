@@ -1,6 +1,6 @@
 
-<footer class="footer">
-        <img class="img" src="img/senaibranco.png">
+<footer>
+          <h1>Systec</h1>
        </footer>
    </body>
 
